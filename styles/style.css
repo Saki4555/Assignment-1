@@ -9,6 +9,8 @@
 }
 
 .button_primary {
+    background-color: #FFFFFF;
+    border: none;
     height: 64px;
     font-weight: 600;
     font-size: 20px;
@@ -78,7 +80,7 @@ header {
 /* plan section styles */
 
 .plan {
-    margin: 150px;
+    margin: 150px 150px 150px 0;
 }
 
 .plan_title {
@@ -92,14 +94,50 @@ header {
 .plan_items {
     display: flex;
     justify-content: space-around;
+    margin-left: 150px;
 }
 
 .item_title {
     font-weight: 700;
     font-size: 30px;
+    margin-top: 10px;
     margin-bottom: 16px;
 }
 
-.plan_items img{
+.plan_items img {
     margin-left: 40px;
+}
+
+.item_description {
+    font-weight: 500;
+    font-size: 25px;
+    color: #737272;
+}
+
+.bit_modify {
+    margin-left: 20px;
+}
+
+/* contuct section styles */
+.contuct {
+    width: 1140px;
+    height: 300px;
+    background-image:linear-gradient(to left, rgba(0,0,139, 0.23), rgba(0,0,139, 0.92)), url(../images/watch.png);
+    background-repeat: no-repeat;
+    margin: 130px 200px;
+    border-radius: 10px;
+}
+
+.contuct_items {
+    padding: 1px;
+}
+
+.contuct_title {
+    font-weight: 700;
+    font-size: 40px;
+    margin: 60px 500px 24px 60px;
+}
+
+.call_button{
+    margin: 0 500px 50px 60px;
 }

@@ -176,7 +176,16 @@ header {
     margin-bottom: 24px;
 }
 
-.email_phone {
+.email_link{
+    display: flex;
+    margin-bottom: 16px;
+}
+
+.email_link a{
+    text-decoration: none;
+}
+
+.phone {
     margin-bottom: 16px;
 }
 
